@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Piano</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h3><a href="./index.html">Virtual Piano</a></h3>
+        <h3><a href="./index.html"><img src="./piano-musical-instrument.png" alt="paino.png"></a></h3>
+        <h3><a href="./index.html">Home</a></h3>
+    </header>
+    <main>
+      <div class="container">
+          <div class="piano-mainframe">
+              <div data-note="a1" class="key key1 w"></div>
+              <div data-note="A" class="key key2 b"></div>
+              <div data-note="a3" class="key key3 w"></div>
+              <div data-note="a4" class="key key4 b"></div>
+              <div data-note="Ab" class="key key5 w"></div>
+              <div data-note="B" class="key key6 w"></div>
+              <div data-note="b4" class="key key7 b"></div>
+              <div data-note="b5" class="key key8 w"></div>
+              <div data-note="Bb" class="key key9 b"></div>
+              <div data-note="c3" class="key key10 w"></div>
+              <div data-note="C" class="key key11 b"></div>
+              <div data-note="c5" class="key key12 w"></div>
+              <div data-note="d33" class="key key13 w"></div>
+              <div data-note="D" class="key key14 b"></div>
+              <div data-note="d3" class="key key15 w"></div>
+              <div data-note="d4" class="key key16 b"></div>
+              <div data-note="Db" class="key key17 w"></div>
+              <div data-note="e5" class="key key18 w"></div>
+              <div data-note="E" class="key key19 b"></div>
+              <div data-note="Eb" class="key key20 w"></div>
+              <div data-note="f33" class="key key21 b"></div>
+              <div data-note="f44" class="key key22 w"></div>
+              <div data-note="F" class="key key23 b"></div>
+              <div data-note="f3" class="key key24 w"></div>
+              <div data-note="f4" class="key key25 w"></div>
+              <div data-note="g4" class="key key26 b"></div>
+              <div data-note="g5" class="key key27 w"></div>
+              <div data-note="G" class="key key28 b"></div>
+              <div data-note="Gb" class="key key29 w"></div>
+            </div>
+            <audio id="a1" src="./audio file/a1.mp3"></audio>
+            <audio id="A" src="./audio file/A.mp3"></audio>
+            <audio id="a3" src="./audio file/a3.mp3"></audio>
+            <audio id="a4" src="./audio file/a4.mp3"></audio>
+            <audio id="Ab" src="./audio file/Ab.mp3"></audio>
+            <audio id="B"  src="./audio file/B.mp3"></audio>
+            <audio id="b4" src="./audio file/b4.mp3"></audio>
+            <audio id="b5" src="./audio file/b5.mp3"></audio>
+            <audio id="Bb" src="./audio file/Bb.mp3"></audio>
+            <audio id="c3" src="./audio file/c3.mp3"></audio>
+            <audio id="C" src="./audio file/C.mp3"></audio>
+            <audio id="c5" src="./audio file/c5.mp3"></audio>
+            <audio id="d33" src="./audio file/d33.mp3"></audio>
+            <audio id="D" src="./audio file/D.mp3"></audio>
+            <audio id="d3" src="./audio file/d3.mp3"></audio>
+            <audio id="d4" src="./audio file/d4.mp3"></audio>
+            <audio id="Db" src="./audio file/Db.mp3"></audio>
+            <audio id="e5" src="./audio file/e5.mp3"></audio>
+            <audio id="E"  src="./audio file/E.mp3"></audio>
+            <audio id="Eb" src="./audio file/Eb.mp3"></audio>
+            <audio id="f33" src="./audio file/f33.mp3"></audio>
+            <audio id="f44" src="./audio file/f44.mp3"></audio>
+            <audio id="F"  src="./audio file/F.mp3"></audio>
+            <audio id="f3" src="./audio file/f3.mp3"></audio>
+            <audio id="f4" src="./audio file/f4.mp3"></audio>
+            <audio id="g4" src="./audio file/g4.mp3"></audio>
+            <audio id="g5" src="./audio file/g5.mp3"></audio>
+            <audio id="G"  src="./audio file/G.mp3"></audio>
+            <audio id="Gb" src="./audio file/Gb.mp3"></audio>
+            
+            <div class="btn">
+                <button class="color-btn">Random key Colors</button>
+                <button class="color-btn r-btn">Reset</button>
+                <input type="color" class="color-pick" value="#ffffff">
+                </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
